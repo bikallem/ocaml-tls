@@ -1,0 +1,4 @@
+(library
+ (name tls_eio)
+ (public_name tls-eio)
+ (libraries eio tls mirage-crypto-rng-eio cstruct))
